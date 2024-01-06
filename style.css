@@ -62,5 +62,17 @@ body {
   #header{
     width: auto;
   }
+
+  .front {
+    display: flex;
+  }
+
+  .front img:nth-child(1) {
+    display: none;
+  }
+
+  .back {
+    display: flex;
+  }
    
 }
